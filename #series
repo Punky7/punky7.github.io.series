@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <!--JavaScript-->
+  <script>
+  
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
+  
+    <head>
+        <meta charset="utf-8">
+        <title>Warriors Webpage</title>
+        
+  <!--CSS-->
+
+        <style>
+        body{
+            background-color: rgb(3,22,52);
+        }
+          .series_box{
+              background-color:rgb(160,197,95);
+              width:250px;
+              padding: 10px 10px 10px 10px;
+              margin-bottom:20px;
+              
+          }
+          
+          .one{
+             text-align:center;
+             font-family:"Verdana",sans-serif;
+             color:rgb(13,103,89);
+             padding-bottom:5px;
+          }
+          
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+          
+        </style>
+    </head>
+    <body>
+    
+  <!--HTML-->
+    
+<h1>Warrior Cats!</h1>
+
+<div id="navbar">
+  <a class="active" href="javascript:void(0)">Home</a>
+  <a href="javascript:void(0)">News</a>
+  <a href="javascript:void(0)">Contact</a>
+</div>
+
+<div class="series_box">
+    
+    <h3 class="one">The Prophecies Begin</h3>
+    
+      <p class="one">Into the Wild</p>
+      <p class="one">Fire and Ice</p>
+      <p class="one">Forest of Secrets</p>
+      <p class="one">Rising Storm</p>
+      <p class="one">A Dangerous Path</p>
+      <p class="one">The Darkest Hour</p>
+    
+</div>
+    
+<div class="series_box">
+    
+    <h3 class="one">The New Prophecy</h3>
+    
+      <p class="one">Midnight</p>
+      <p class="one">Moonrise</p>
+      <p class="one">Dawn</p>
+      <p class="one">Starlight</p>
+      <p class="one">Twilight</p>
+      <p class="one">Sunset</p>
+    
+</div>
+
+
+<div class="series_box">
+    
+    <h3 class="one">Power of Three</h3>
+    
+      <p class="one">The Sight</p>
+      <p class="one">Dark River</p>
+      <p class="one">Outcast</p>
+      <p class="one">Eclipse</p>
+      <p class="one">Long Shadows</p>
+      <p class="one">Sunrise</p>
+    
+</div>
+
+<div class="series_box">
+    
+    <h3 class="one">Omen of the Stars</h3>
+    
+      <p class="one">The Fourth Apprentice</p>
+      <p class="one">Fading Echoes</p>
+      <p class="one">Night Whispers</p>
+      <p class="one">Sign of the Moon</p>
+      <p class="one">The Forgotten Warrior</p>
+      <p class="one">The Last Hope</p>
+    
+</div>
+
+<div class="series_box">
+    
+    <h3 class="one">A Vision of Shadows</h3>
+    
+      <p class="one">The Apprentices Quest</p>
+      <p class="one">Thunder and Shadow</p>
+      <p class="one">Shattered Sky</p>
+      <p class="one">Darkest Night</p>
+      <p class="one">River of Fire</p>
+      <p class="one">The Raging Storm</p>
+    
+</div>
+
+
+<div class="series_box">
+    
+    <h3 class="one">The Broken Code</h3>
+    
+      <p class="one">Lost Stars</p>
+      <p class="one">The Silent Thaw</p>
+      <p class="one">Veil of Shadows</p>
+      <p class="one">Darkness Within</p>
+      <p class="one">The Place of No Stars</p>
+      <p class="one">A Light in the Mist</p>
+      
+    
+</div>
+
+<div class="series_box">
+    
+    <h3 class="one">A Starless Clan</h3>
+    
+      <p class="one">River</p>
+      <p class="one">Sky</p>
+      <p class="one">More to come!</p>
+
+</div>
+
+<h2>The Clans</h2>
+<ul>
+  <li>ThunderClan</li>  
+   <li>RiverClan</li>
+   <li>ShadowClan</li>
+   <li>WindClan</li>
+   <li>SkyClan</li>
+   <li>StarClan</li>
+</ul>
+
+
+<h2>The Make up of a Clan</h2>
+<li>Leader</li>
+<p>A Leaders job is to run the clan. They are much like we would think today as a king. A Leader is chosen by the previous Leader and made Deputy. A Leader recives nine lives from Starclan. Each one is gifted by a passed loved one of the Leader. A Leader will serve until death. </p>
+<li>Deputy</li>
+<li>Medicine Cat(s)</li>
+<li>Warriors</li>
+<li>Apprenties</li>
+<li>Queens</li>
+<li>Elders</li>
+
+
+<h2>The Warrior Code</h2>
+<ol>
+    <li>Defend your clan, even at the cost of your life. You may have friendships in other clans but your loyalty must remain to your own clan.</li>
+    
+    <li>Do not hunt or trespass on another Clan's territory.</li>
+    
+    <li>Elders and kits must be fed before apprentices and warriors.</li>
+    
+    <li>Prey is killed only to be eaten. Give thanks to StarClan for its life.</li>
+    
+    <li>A kit must be at least six moons old to become an apprentice.</li>
+    
+    <li>Newly appointed warriors will keep a silent vigil for one night after receving their warrior name.</li>
+    
+    <li>A cat cannot be made deputy without having mentored at least one apprentice.</li>
+    
+    <li>The deputy will become Clan leader when the leader dies or retires.</li>
+    
+    <li>After the death or retiremet of the deputy, the new deputy must be chosen before moonhigh.</li>
+    
+    <li>A gathering of all Clans is held at the full moon during a truce that lasts for the night. There shall be no fighting at this time.</li>
+    
+    <li>Boundaries must be checked and marked daily. Challenge all trespassing cats.</li>
+    
+    <li>No warrior may neglect a kit in pain or in danger, even if that kit is from a different Clan.</li>
+    
+    <li>The word of the Clan leader is the warrior code.</li>
+    
+    <li>An honorable warrior does not need to kill other cats to win his or her battles, unless it is for self-defense.</li>
+    
+    <li>A warrior rejects the soft life of a kittypet.</li>
+    
+</ol>
+    </body>
+    
+</html>
